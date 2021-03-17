@@ -86,8 +86,8 @@ main {
 
 #index_mid {
     display:grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows:auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr ;
 }
 
 #index_photo_1 {
