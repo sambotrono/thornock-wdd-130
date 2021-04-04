@@ -124,6 +124,7 @@ footer {
     padding: var(--spacing);
     color: var(--alt-font-color);
     background-color: var(--alt-background-color);
+    
 }
 
 footer a {
@@ -290,4 +291,141 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
 
 body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
+}
+#about-history {
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+
+#song {
+    border: 3px solid black;
+    background-color:rgba(16, 133, 179, 0.979);
+    margin: auto;
+}
+
+#cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 20 px;
+}
+#about-card-1 {
+    background-color:rgb(21, 49, 37);
+    padding-bottom: 100px;
+    grid-column: 1;
+    grid-row: 1;
+    box-shadow: 0 30px 40px 0 rgba(179, 16, 16, 0.979), 0 40px 50px 0 rgba(19, 4, 4, 0.808);
+    text-align: center;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    border-radius: 200px 200px 200px 200px;
+}
+
+#about-card-2 {
+    background-color:rgb(78, 122, 102);
+    padding-bottom: 100px;
+    grid-column: 2;
+    grid-row: 2;
+    box-shadow: 0 30px 40px 0 rgba(179, 16, 16, 0.979), 0 40px 50px 0 rgba(10, 60, 153, 0.877);
+    text-align: center;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 200px 200px 200px 200px;
+}
+
+#about-card-3 {
+    background-color:rgb(55, 66, 61);
+    padding-bottom: 100px;
+    grid-column: 1;
+    grid-row: 3;
+    box-shadow: 0 30px 40px 0 rgba(16, 133, 179, 0.979), 0 40px 50px 0 rgba(90, 70, 204, 0.781);
+    text-align: center;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 200px 200px 200px 200px;
+}
+
+#card-image-1 {
+padding: 20px;
+box-shadow: 0 30px 40px 0 rgba(16, 133, 179, 0.979), 0 40px 50px 0 rgba(90, 70, 204, 0.781);
+border-radius: 5px 5px 0 0;
+}
+
+#card-image-2 {
+    padding: 20px;
+    box-shadow: 0 30px 40px 0 rgba(16, 133, 179, 0.979), 0 40px 50px 0 rgba(90, 70, 204, 0.781);
+    border-radius: 5px 5px 0 0;
+}
+
+#card-image-3 {
+    padding: 20px;
+    box-shadow: 0 30px 40px 0 rgba(16, 133, 179, 0.979), 0 40px 50px 0 rgba(90, 70, 204, 0.781); 
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+#contact-form {
+    text-align: center;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgb(111, 173, 111);
+    font-size: 20px;
+    padding-bottom: 2in;
+    border-bottom: 20px solid black;
+    padding-top: 15px;
+    border-top: 10px solid black;
+    
+}
+#contact-form-message {
+    height: auto;
+    width: auto;
+    margin-top:20px;
+}
+#contact-form-submit {
+    width: 3%;
+    height: auto;
+
+}
+#contact-form-submit:hover {
+    width: 5%;
+    height: auto;
+
+}
+
+#contact-us-text {
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#research-title {
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: 4px solid black;
+    background-color:rgb(78, 122, 102)
+
+}
+
+#research-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1;
+    margin:auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+#research-grid-text {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1;
+    margin:auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
