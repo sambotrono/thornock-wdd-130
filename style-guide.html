@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/dark-mode.js"></script>
 </head>
+
 <body>
     <header>
         <div id="logo-wrapper">
@@ -51,57 +53,256 @@
         </nav>
     </header>
     <main>
-      
-    <footer>
-        <div id="legal">
-            &copy; 2021 The Rational Rhetoric Exchange. All Rights Reserved.
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="research.html">
-                        Research
-                    </a>
-                </li>
-                <li>
-                    <a href="how-to.html">
-                        How To
-                    </a>
-                </li>
-                <li>
-                    <a href="contact-us.html">
-                        Contact Us
-                    </a>
-                </li>
-                <li>
-                    <a href="style-guide.html">
-                        Style Guide
-                    </a>
-                </li>
-                <li>
-                    <a href="wireframes.html">
-                        Wireframes
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div id="dark-mode">
-            <div class="icon" id="sun-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.088 13.126l1.912-1.126-1.912-1.126c-1.021-.602-1.372-1.91-.788-2.942l1.093-1.932-2.22-.02c-1.185-.01-2.143-.968-2.153-2.153l-.02-2.219-1.932 1.093c-1.031.583-2.34.233-2.941-.788l-1.127-1.913-1.127 1.913c-.602 1.021-1.91 1.372-2.941.788l-1.932-1.093-.02 2.219c-.01 1.185-.968 2.143-2.153 2.153l-2.22.02 1.093 1.932c.584 1.032.233 2.34-.788 2.942l-1.912 1.126 1.912 1.126c1.021.602 1.372 1.91.788 2.942l-1.093 1.932 2.22.02c1.185.01 2.143.968 2.153 2.153l.02 2.219 1.932-1.093c1.031-.583 2.34-.233 2.941.788l1.127 1.913 1.127-1.913c.602-1.021 1.91-1.372 2.941-.788l1.932 1.093.02-2.219c.011-1.185.969-2.143 2.153-2.153l2.22-.02-1.093-1.932c-.584-1.031-.234-2.34.788-2.942zm-10.117 6.874c-4.411 0-8-3.589-8-8s3.588-8 8-8 8 3.589 8 8-3.589 8-8 8zm6.029-8c0 3.313-2.687 6-6 6s-6-2.687-6-6 2.687-6 6-6 6 2.687 6 6z"/></svg>
+
+        <html lang="en-us">
+            --background-color: rgb(183, 227, 204);
+            --alt-background-color: rgb(196, 255, 178);
+            --font-color: black;
+            --alt-font-color: darkslategray;
+            --border-color: black;
+            /* Dark Mode Colors */
+            --dark-background-color:rgb(23, 22, 20);
+            --dark-alt-background-color: rgb(58, 38, 24);
+            --dark-font-color:rgb(117, 64, 67);
+            --dark-alt-font-color: rgb(154, 136, 115);
+            --dark-border-color: rgb(55, 66, 61);
+
+        <body>
+            <h1>Final Project Style Guide</h1>
+            <button>Toggle Dark Mode</button>
+            <div>
+                <h2>Normal Colors</h2>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Background
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --background-color: rgb(183, 227, 204);
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Alt Background
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --alt-background-color: rgb(196, 255, 178);
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Primary
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --font-color: black;
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Alt Primary
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --alt-font-color: darkslategray;
+                    </div>
+                </div>
             </div>
-            <div id="tgl-wrapper">
-                <input class="tgl" id="dark-mode-toggle" type="checkbox"/>
-                <label class="tgl-btn" for="dark-mode-toggle"></label>
+            <div>
+                <h2>Dark Mode Colors</h2>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Background
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --dark-background-color:rgb(23, 22, 20);
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Alt Background
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --dark-alt-background-color: rgb(58, 38, 24);
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Primary
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --dark-font-color:rgb(117, 64, 67);
+                    </div>
+                </div>
+                <div class="color-wrapper">
+                    <div class="title">
+                        Alt Primary
+                    </div>
+                    <div class="color"></div>
+                    <div>
+                        --dark-alt-font-color: rgb(154, 136, 115);
+                    </div>
+                </div>
             </div>
-            <div class="icon" id="moon-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 10.999c1.437.438 2.562 1.564 2.999 3.001.44-1.437 1.565-2.562 3.001-3-1.436-.439-2.561-1.563-3.001-3-.437 1.436-1.562 2.561-2.999 2.999zm8.001.001c.958.293 1.707 1.042 2 2.001.291-.959 1.042-1.709 1.999-2.001-.957-.292-1.707-1.042-2-2-.293.958-1.042 1.708-1.999 2zm-1-9c-.437 1.437-1.563 2.562-2.998 3.001 1.438.44 2.561 1.564 3.001 3.002.437-1.438 1.563-2.563 2.996-3.002-1.433-.437-2.559-1.564-2.999-3.001zm-7.001 22c-6.617 0-12-5.383-12-12s5.383-12 12-12c1.894 0 3.63.497 5.37 1.179-2.948.504-9.37 3.266-9.37 10.821 0 7.454 5.917 10.208 9.37 10.821-1.5.846-3.476 1.179-5.37 1.179z"/></svg>
+            <div>
+                <h2>Fonts</h2>
+                <p>
+                    I have chosen to use the following fonts for my site:
+                </p>
+                <ul>
+                    <li>
+                        font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif; this is to provide uniformity to the website.
+                    </li>
+                   
+                </ul>
             </div>
-        </div>
-    </footer>
+            <div>
+                <h2>Elevator Pitch</h2>
+                <p>
+                    For my website, I am looking to draw people together in an academic setting. I want to create a space similar to a blog but with the interactive nature of a forum. I want all of this to be moderated and viewed through the lens of a peer review journal. People will be able to post essays and people will be able to respond to those essays via other essays. I want to eliminate social media shout culture and prompt academic and highly structured rhetorical exchange. I will call this the Rational Rhetoric Exchange. I will use HTML and CSS to stylize, then eventually use Java and Python to build the word processors.
+
+
+
+                </p>
+            </div>
+            <div>
+                <h2>Purpose Statement</h2>
+                <p>
+                    Rational Rhetoric Exchange Statements
+
+Rational Rhetoric Exchange
+<br>
+
+Standing as a communications interface and platform, RRE will serve as the connective link between the stringent peer reviews and journals of the academy, and the informational exchange of the masses. The world in which we live is largely starved for comprehensive fully formed ideas and opinions. Because of the ever-increasing physical and intellectual character-limit being placed on the thoughts and rhetoric of countless individuals, society is reverting to based forms of attack. Gone are the days of careful consideration and calculated prose. What have taken predominant command in the socio-political spheres of communication, are mere jabs and brute fits of rage consolidated into as few words as possible. <br>
+
+To combat this problem, the RRE will hold 3 primary objectives. <br>
+<br>
+
+
+1.	Invite everyone to experiment with longhand prose and idea formulations through properly formatted essays and journals.<br>
+2.	Teach individuals how to find and cite information and data<br>
+3.	Serve as an inspiration for anyone seeking to educate themselves on a particular topic.<br>
+<br>
+<br>
+
+To break down these 3 objectives<br>
+<br>
+
+
+1.	Invite everyone to experiment with longhand prose and idea formulations through properly formatted essays and journals.<br>
+
+This is the primary combatant against current social media “rant culture”. RRE will serve as a very basic word processor containing built in code to help new users learn how to write longer prose with correct stylization and structure. <br>
+
+
+2.	Teach individuals how to find and cite information and data.<br>
+
+Giving people the knowledge how to review facts and logic before they hit “post” will serve as a catalyst for a society that will seek a broader form of truth and understanding. General appeal to authority is not enough in today's social media interaction. People want to share their opinion, but often do so in ignorance or blind trust. To train individuals, even basically, to learn to use existing applications such as Google Scholar or Ebsco helps them develop a tendency toward facts and numbers rather than sensationalism and authority.<br>
+
+
+3.	Serve as an inspiration for anyone seeking to educate themselves on a particular topic.<br>
+
+The complete and comprehensive exchange of information and data proves paramount to the development of society at large. Today people lack a platform that will push them to communicate the actuality of their argument. RRE will prompt learning through interaction with the editing, fact checking, and review of other peoples essays and writing. 
+
+                </p>
+            </div>
+            <div>
+                <h2>Audience Statement</h2>
+                <p>
+                   Included in section above
+                </p>
+            </div>
+            <div>
+                <h2>Misson Statement</h2>
+                <p>
+                   Included in section above
+                </p>
+            </div>
+            <div>
+                <h2>Persona and Scenario Ideas</h2>
+                <p>
+                    Included in section above
+                </p>
+            </div>
+            <script>
+                /**
+                 * This script adds a listener to the dark mode toggle button.
+                 * When it is clicked the class .dark-mode is added or removed
+                 * from the body. In our CSS file we added specific rules to
+                 * the page when the .dark-mode class is present.
+                 */
+                var toggle = document.querySelector('button');
+                if (toggle) {
+                    toggle.addEventListener('click', toggleDarkMode);
+                }
+
+                function toggleDarkMode() {
+                    document.body.classList.toggle('dark-mode');
+                }
+            </script>
+        </body>
+
+        </html>
+        <footer>
+            <div id="legal">
+                &copy; 2021 The Rational Rhetoric Exchange. All Rights Reserved.
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="research.html">
+                            Research
+                        </a>
+                    </li>
+                    <li>
+                        <a href="how-to.html">
+                            How To
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="style-guide.html">
+                            Style Guide
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wireframes.html">
+                            Wireframes
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="dark-mode">
+                <div class="icon" id="sun-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M22.088 13.126l1.912-1.126-1.912-1.126c-1.021-.602-1.372-1.91-.788-2.942l1.093-1.932-2.22-.02c-1.185-.01-2.143-.968-2.153-2.153l-.02-2.219-1.932 1.093c-1.031.583-2.34.233-2.941-.788l-1.127-1.913-1.127 1.913c-.602 1.021-1.91 1.372-2.941.788l-1.932-1.093-.02 2.219c-.01 1.185-.968 2.143-2.153 2.153l-2.22.02 1.093 1.932c.584 1.032.233 2.34-.788 2.942l-1.912 1.126 1.912 1.126c1.021.602 1.372 1.91.788 2.942l-1.093 1.932 2.22.02c1.185.01 2.143.968 2.153 2.153l.02 2.219 1.932-1.093c1.031-.583 2.34-.233 2.941.788l1.127 1.913 1.127-1.913c.602-1.021 1.91-1.372 2.941-.788l1.932 1.093.02-2.219c.011-1.185.969-2.143 2.153-2.153l2.22-.02-1.093-1.932c-.584-1.031-.234-2.34.788-2.942zm-10.117 6.874c-4.411 0-8-3.589-8-8s3.588-8 8-8 8 3.589 8 8-3.589 8-8 8zm6.029-8c0 3.313-2.687 6-6 6s-6-2.687-6-6 2.687-6 6-6 6 2.687 6 6z" />
+                    </svg>
+                </div>
+                <div id="tgl-wrapper">
+                    <input class="tgl" id="dark-mode-toggle" type="checkbox" />
+                    <label class="tgl-btn" for="dark-mode-toggle"></label>
+                </div>
+                <div class="icon" id="moon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 10.999c1.437.438 2.562 1.564 2.999 3.001.44-1.437 1.565-2.562 3.001-3-1.436-.439-2.561-1.563-3.001-3-.437 1.436-1.562 2.561-2.999 2.999zm8.001.001c.958.293 1.707 1.042 2 2.001.291-.959 1.042-1.709 1.999-2.001-.957-.292-1.707-1.042-2-2-.293.958-1.042 1.708-1.999 2zm-1-9c-.437 1.437-1.563 2.562-2.998 3.001 1.438.44 2.561 1.564 3.001 3.002.437-1.438 1.563-2.563 2.996-3.002-1.433-.437-2.559-1.564-2.999-3.001zm-7.001 22c-6.617 0-12-5.383-12-12s5.383-12 12-12c1.894 0 3.63.497 5.37 1.179-2.948.504-9.37 3.266-9.37 10.821 0 7.454 5.917 10.208 9.37 10.821-1.5.846-3.476 1.179-5.37 1.179z" />
+                    </svg>
+                </div>
+            </div>
+        </footer>
 </body>
+
 </html>
